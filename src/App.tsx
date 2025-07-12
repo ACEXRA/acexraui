@@ -1,14 +1,9 @@
-import Main from "./main/Main";
-import "./assets/css/app.css";
-import Header from "./main/Header";
+import React from "react";
+import Typewriter from "./components/TypeAnimation";
+import Home from "./pages/Home";
 
 const App = () => {
-  return (
-    <>
-      <Header />
-      <Main />
-    </>
-  );
+  return <Home />;
 };
 
 export default App;
