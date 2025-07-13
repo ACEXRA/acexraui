@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useRef } from "react";
+import TypeAnimation from "../components/TypeAnimation";
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <div>
+      <TypeAnimation sequence={["Hello", "World"]} />
+    </div>
+  );
 };
 
 export default Home;
